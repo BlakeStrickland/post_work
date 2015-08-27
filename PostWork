@@ -1,0 +1,12 @@
+def times10 (n)
+  i = 0
+  loop do 
+  i +=1
+  print "#{n} "
+  break if i == 10
+  end
+end
+puts "Please enter a word or sentance!"
+sentance = gets.chomp
+
+times10("#{sentance}")
